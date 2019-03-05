@@ -1,0 +1,260 @@
+/* CSS Document */
+
+/*universal/element selectors */
+/*font-size, font-style, font-variant, font-weight, font-family */
+
+body {
+	font-family: 'Lobster', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	overflow: hidden;
+}
+
+h3{
+	color: #080b0a;
+  text-align: center;
+}
+
+
+
+h2 {
+	float:none;
+	font-size: 40px;
+	font-weight: bold;
+	text-align:center;
+    color:#080b0a;
+    padding-top: 5%;
+}
+
+/* Navigation */
+nav {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background:rgba(255, 255, 255, 0.4);
+  
+}
+nav>ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	padding: 40px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-weight: bold;  
+}
+
+/* class or ID selectors */
+
+.linkItem {
+    text-decoration: none;
+    color: white;
+  }
+
+/*pesuedo class*/
+a:hover{
+   color:rgb(105, 54, 195);
+}
+
+
+.myimage{
+    overflow: hidden;
+    max-height: 50%;
+}
+
+.column {
+   flex-basis: 0;
+    flex-grow:1;
+   max-width:100%;
+}
+
+.row{
+     display: flex;
+-webkit-display: flex;
+-moz-display: flex;
+-ms--display: flex;
+     display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+   
+
+#backgroundimg{
+    
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.myheader{
+    position: relative;    
+}
+
+.myfooter{
+   
+    padding-top: 2%;
+   
+}
+
+nav ul li {
+	
+		float: left;
+	}
+
+footer {
+	text-align: center;
+	border-top: ;
+    background-color:#2d2826;
+    color: white;
+    max-height: 200px;
+    min-height: 100px;
+     position: relative;
+   
+}
+
+#introimg{
+  width: 20%;
+  float:left;
+  height: 3.5%;
+}
+
+.intro{
+  width: 40%;
+  float:left;
+  font-size: 1.3em;
+  line-height: 200%;
+  text-align:center;
+}
+
+.work{
+  width: 100%;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 200%;
+  background-color:rgba(102, 51, 153,0.3);
+  padding-bottom: 3em;
+  margin:1em;
+}
+
+.contact{
+  float: left;
+  line-height: 150%;
+  display: block;
+  padding-left: 50px;
+
+}
+
+.MouAbsolute-h1{ 
+  position: absolute;
+	font-size: 60px;
+	text-align:center;
+	float:none;
+	font-weight: bold;
+  color: white;
+  margin-top: 10%;
+  white-space: nowrap ;
+  padding-left: 35%;
+  font-family: 'Lobster', cursive;
+  word-spacing: 30px;; 
+}
+    h2 {
+	float:none;
+	font-size: 40px;
+	font-weight: bold;
+	text-align:center;
+    color:#080b0a;
+    padding-top: 5%;
+}
+
+.MouAbsolute-h1-2{
+    position: absolute;
+   display: none;
+}
+		p {
+	margin: 20px 0;
+	line-height:26px;
+	font-weight: normal;
+   padding-left: 10%;
+    padding-right: 10%;
+}
+    
+
+/* End Article */
+
+
+@media only screen and (max-width: 737px)  {
+
+#backgroundimg{
+    
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: 250px;
+}
+
+.MouAbsolute-h1{
+    position: absolute;
+   
+  font-size: 28px;
+  text-align:center;
+  float:none;
+  font-weight: bold;
+    color: white;
+    margin-top: 50%;
+    white-space: nowrap ;
+    padding-left: 27%;
+    font-family: 'Lobster', cursive;
+    word-spacing: 10px;
+}
+
+#introimg{
+  width: 100%;
+  float:left;
+  height: 50%;
+}
+
+
+.intro{
+  width: 100%;
+  float: left;
+  font-size: 1em;
+  line-height: 120%;
+  text-align: left;
+  padding: 10px;
+}
+
+.work{
+  width: 100%;
+  float: left;
+  font-size: 1em;
+  line-height: 120%;
+  text-align: left;
+}
+
+
+    h2 {
+	float:none;
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+    color:#080b0a;
+    padding-top: 5%;
+}
+
+.contact{
+  padding-left: 10px;
+}
+
+
+	
+
+
